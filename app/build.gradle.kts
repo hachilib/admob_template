@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.snowy.owl.lib.admob"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.snowy.owl.lib.admob"
         minSdk = 27
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0.0"
 
@@ -51,5 +51,5 @@ dependencies {
 
     implementation(project(mapOf("path" to ":AdsSdk")))
     //google ad
-    implementation("com.google.android.gms:play-services-ads:23.3.0")
+    implementation("com.google.android.gms:play-services-ads:23.5.0")
 }
