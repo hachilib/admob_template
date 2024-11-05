@@ -14,7 +14,7 @@ dependencyResolutionManagement {
 > Step 2. Add the dependency
 ```gradle
 dependencies {
-	        implementation 'com.github.hachilib:lib_admob:Tag'
+	        implementation 'com.github.hachilib:admob_template:Tag'
 	}
 ```
 
